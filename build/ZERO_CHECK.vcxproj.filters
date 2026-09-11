@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\fralix-player\apm\build\CMakeFiles\41f750d7395442aad810c529e7e8172d\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B27C3D6D-CB47-3F46-A449-3C053751E707}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

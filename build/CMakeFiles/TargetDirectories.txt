@@ -1,0 +1,10 @@
+D:/fralix-player/apm/build/CMakeFiles/webrtc_apm.dir
+D:/fralix-player/apm/build/CMakeFiles/basic_apm.dir
+D:/fralix-player/apm/build/CMakeFiles/apm_pipeline.dir
+D:/fralix-player/apm/build/CMakeFiles/aec_demo.dir
+D:/fralix-player/apm/build/CMakeFiles/ns_demo.dir
+D:/fralix-player/apm/build/CMakeFiles/agc_demo.dir
+D:/fralix-player/apm/build/CMakeFiles/vad_demo.dir
+D:/fralix-player/apm/build/CMakeFiles/hpf_aec_ns_agc_vad.dir
+D:/fralix-player/apm/build/CMakeFiles/ALL_BUILD.dir
+D:/fralix-player/apm/build/CMakeFiles/ZERO_CHECK.dir

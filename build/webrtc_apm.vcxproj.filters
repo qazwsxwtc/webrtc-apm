@@ -1,0 +1,928 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\adaptive_fir_filter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\adaptive_fir_filter_erl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\aec3_common.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\aec3_fft.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\aec_state.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\alignment_mixer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\api_call_jitter_metrics.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\block_buffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\block_delay_buffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\block_framer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\block_processor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\block_processor_metrics.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\clockdrift_detector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\coarse_filter_update_gain.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\comfort_noise_generator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\decimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\dominant_nearend_detector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\downsampled_render_buffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\echo_audibility.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\echo_canceller3.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\echo_path_delay_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\echo_path_variability.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\echo_remover.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\echo_remover_metrics.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\erl_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\erle_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\fft_buffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\filter_analyzer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\frame_blocker.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\fullband_erle_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\matched_filter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\matched_filter_lag_aggregator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\moving_average.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\refined_filter_update_gain.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\render_buffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\render_delay_buffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\render_delay_controller.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\render_delay_controller_metrics.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\render_signal_analyzer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\residual_echo_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\reverb_decay_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\reverb_frequency_response.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\reverb_model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\reverb_model_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\signal_dependent_erle_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\spectrum_buffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\stationarity_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\subband_erle_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\subband_nearend_detector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\subtractor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\subtractor_output.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\subtractor_output_analyzer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\suppression_filter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec3\suppression_gain.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aecm\aecm_core.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aecm\aecm_core_c.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aecm\echo_control_mobile.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc\agc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc\agc_manager_direct.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc\legacy\analog_agc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc\legacy\digital_agc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc\loudness_histogram.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc\utility.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\adaptive_agc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\adaptive_digital_gain_applier.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\adaptive_mode_level_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\adaptive_mode_level_estimator_agc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\agc2_common.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\agc2_testing_common.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\biquad_filter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\compute_interpolated_gain_curve.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\down_sampler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\fixed_digital_level_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\gain_applier.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\interpolated_gain_curve.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\limiter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\limiter_db_gain_curve.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\noise_level_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\noise_spectrum_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\rnn_vad\auto_correlation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\rnn_vad\common.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\rnn_vad\features_extraction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\rnn_vad\lp_residual.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\rnn_vad\pitch_search.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\rnn_vad\pitch_search_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\rnn_vad\rnn.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\rnn_vad\spectral_features.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\rnn_vad\spectral_features_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\saturation_protector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\signal_classifier.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\vad_with_level.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\agc2\vector_float_frame.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\audio_buffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\audio_processing_builder_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\audio_processing_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\echo_control_mobile_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\echo_detector\circular_buffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\echo_detector\mean_variance_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\echo_detector\moving_max.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\echo_detector\normalized_covariance_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\gain_control_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\gain_controller2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\high_pass_filter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\include\aec_dump.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\include\audio_frame_proxies.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\include\audio_processing.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\include\audio_processing_statistics.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\include\config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\level_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\logging\apm_data_dumper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\ns\fast_math.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\ns\histograms.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\ns\noise_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\ns\noise_suppressor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\ns\ns_fft.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\ns\prior_signal_model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\ns\prior_signal_model_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\ns\quantile_noise_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\ns\signal_model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\ns\signal_model_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\ns\speech_probability_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\ns\suppression_params.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\ns\wiener_filter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\optionally_built_submodule_creators.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\residual_echo_detector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\rms_level.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\splitting_filter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\three_band_filter_bank.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\typing_detection.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\utility\cascaded_biquad_filter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\utility\delay_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\utility\delay_estimator_wrapper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\utility\pffft_wrapper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\vad\gmm.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\vad\pitch_based_vad.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\vad\pitch_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\vad\pole_zero_filter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\vad\standalone_vad.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\vad\vad_audio_proc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\vad\vad_circular_buffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\vad\voice_activity_detector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\voice_detection.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\api\audio\audio_frame.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\api\audio\channel_layout.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\api\audio\echo_canceller3_config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\audio_converter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\audio_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\channel_buffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\fir_filter_c.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\fir_filter_factory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\fir_filter_sse.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\real_fourier.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\real_fourier_ooura.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\resampler\push_resampler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\resampler\push_sinc_resampler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\resampler\resampler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\resampler\sinc_resampler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\resampler\sinc_resampler_sse.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\ring_buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\auto_correlation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\complex_bit_reverse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\complex_fft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\copy_set_operations.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\cross_correlation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\division_operations.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\dot_product_with_scale.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\downsample_fast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\energy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\get_hanning_window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\get_scaling_square.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\min_max_operations.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\randomization_functions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\real_fft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\resample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\resample_48khz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\resample_by_2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\resample_by_2_internal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\resample_fractional.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\spl_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\spl_inl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\spl_sqrt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\splitting_filter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\sqrt_of_one_minus_x_squared.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\signal_processing\vector_scaling_operations.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\smoothing_filter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\third_party\ooura\fft_size_128\ooura_fft.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\third_party\ooura\fft_size_128\ooura_fft_sse2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\third_party\ooura\fft_size_256\fft4g.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\third_party\spl_sqrt_floor\spl_sqrt_floor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\vad\vad.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\vad\vad_core.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\vad\vad_filterbank.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\vad\vad_gmm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\vad\vad_sp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\vad\webrtc_vad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\wav_file.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\wav_header.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\common_audio\window_generator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\system_wrappers\source\clock.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\system_wrappers\source\cpu_features.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\system_wrappers\source\cpu_info.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\system_wrappers\source\field_trial.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\system_wrappers\source\metrics.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\system_wrappers\source\sleep.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\api\task_queue\default_task_queue_factory_win.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\api\task_queue\task_queue_base.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\arith_routines.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\arith_routines_hist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\arith_routines_logist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\bandwidth_estimator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\crc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\decode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\decode_bwe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\encode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\encode_lpc_swb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\entropy_coding.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\filter_functions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\filterbanks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\intialize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\isac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\isac_vad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\lattice.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\lpc_analysis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\lpc_gain_swb_tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\lpc_shape_swb12_tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\lpc_shape_swb16_tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\lpc_tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\pitch_estimator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\pitch_filter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\pitch_gain_tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\pitch_lag_tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\spectrum_ar_model_tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\source\transform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\main\util\utility.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\arith_routines.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\arith_routines_hist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\arith_routines_logist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\bandwidth_estimator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\decode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\decode_bwe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\decode_plc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\encode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\entropy_coding.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\fft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\filterbank_tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\filterbanks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\filters.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\initialize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\isacfix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\lattice.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\lattice_c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\lpc_masking_model.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\lpc_tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\pitch_estimator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\pitch_estimator_c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\pitch_filter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\pitch_filter_c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\pitch_gain_tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\pitch_lag_tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\spectrum_ar_model_tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\transform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_coding\codecs\isac\fix\source\transform_tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\async_resolver_interface.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\async_socket.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\checks.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\critical_section.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\event.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\event_tracer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\experiments\field_trial_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\fake_clock.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\ip_address.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\location.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\logging.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\memory\aligned_malloc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\message_handler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\net_helpers.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\null_socket_server.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\numerics\moving_average.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\numerics\sample_counter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\platform_thread.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\platform_thread_types.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\race_checker.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\signal_thread.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\socket.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\socket_address.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\stream.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\string_encode.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\string_to_number.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\string_utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\strings\string_builder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\synchronization\rw_lock_win.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\synchronization\rw_lock_wrapper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\synchronization\sequence_checker.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\synchronization\yield_policy.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\system\file_wrapper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\task_queue.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\task_queue_win.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\thread.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\time_utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\win32.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\rtc_base\zero_memory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\third_party\pffft\src\fftpack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\third_party\pffft\src\pffft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\third_party\rnnoise\src\rnn_vad_weights.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\fralix-player\apm\modules\audio_processing\aec_dump\null_aec_dump_factory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\fralix-player\apm\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{83AD3F3F-614D-3F50-AE24-DD9817C33F83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

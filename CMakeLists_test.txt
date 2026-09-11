@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.16)
+project(test_glob LANGUAGES C CXX)
+
+message(STATUS "CMAKE_CURRENT_SOURCE_DIR = ${CMAKE_CURRENT_SOURCE_DIR}")
+
+file(GLOB_RECURSE TEST_SRC CONFIGURE_DEPENDS
+    "${CMAKE_CURRENT_SOURCE_DIR}/common_audio/*.cc"
+    "${CMAKE_CURRENT_SOURCE_DIR}/common_audio/*.c"
+)
+
+list(LENGTH TEST_SRC TEST_CNT)
+message(STATUS "common_audio files via GLOB_RECURSE: ${TEST_CNT}")
+foreach(s ${TEST_SRC})
+    message(STATUS "  -> ${s}")
+endforeach()
