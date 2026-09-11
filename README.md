@@ -1,3 +1,5 @@
+> English | [中文](README.zh-CN.md)
+
 # WebRTC APM — Stand‑Alone Audio Processing Library
 
 An independent **Audio Processing Module** extracted from WebRTC source code. Only audio‑related features are retained; video, network, ICE, media and other irrelevant modules are stripped out. It provides a **single CMake project, zero external dependencies, cross‑platform** compilation.
